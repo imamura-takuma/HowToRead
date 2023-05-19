@@ -183,6 +183,8 @@ public class book implements Parcelable {
             });
 
             // 1件分のデータがクリックされた時の挙動を定義
+
+            
             holder.getRowView().setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
